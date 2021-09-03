@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700|Ubuntu&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
@@ -10,68 +10,169 @@
             background-color: green;
         }
 
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Raleway', sans-serif;
+            background-color: green;
+        }
+
+        div#wrapper {
+            background-color: rgb(250, 241, 234);
+        }
 
         header {
-            background-color: rgb(192, 240, 233);
+            background-color: cyan;
             text-align: center;
         }
 
 
-        table, tr, td {
-            border: solid black 1px;
-            border-collapse: collapse;
+        ul {
+            margin: 0px;
+            padding: 0px;
         }
 
-        td {
+        li {
+            background-color: blue;
             padding: 10px;
+            padding-left: 20px;
+            border-top: 1px solid white;
         }
 
-        p {
-            color: red;
+        li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 700;
         }
 
-        h3{
+        @media all and (min-width: 550px) {
+            ul {
+                background-color: blue;
+            }
+
+            li {
+                display: inline-block;
+                border: none;
+            }
+        }
+
+        h3 {
+            color: rgb(220, 106, 94);
+            font-weight: 600;
+        }
+
+        section, footer {
+            padding: 20px;
+        }
+
+        @media all and (min-width: 550px) {
+            section#nieuws {
+                width: 40%;
+                float: left;
+            }
+
+            section#instrumenten {
+                width: 60%;
+                float: right;
+            }
+        }
+
+        @media all and (min-width: 920px) {
+            section#nieuws {
+                width: 30%;
+                float: left;
+            }
+
+            section#instrumenten {
+                width: 70%;
+                float: right;
+            }
+        }
+
+        section{
+            background-color: blue;
+        }
+
+        article {
+            display: inline-block;
+            width: 45%;
+            margin-right: 20px;
             color: blue;
         }
 
-        h1{
-            color: yellow;
+        article:nth-child(even) {
+            margin-right: 0px;
         }
 
+        @media all and (min-width: 1200px) {
+            div#wrapper {
+                width: 1200px;
+                margin: auto;
+            }
+        }
+
+        h1 {
+            text-align: center;
+        }
 
     </style>
 </head>
+
 <body>
 
-<header>
-    <h1>De planing</h1>
-</header>
+
+<h1>De planing</h1>
+
+<nav>
+    <ul>
+        <table border="1">
+            <tr>
+                <td><h3>stap 1</h3></td>
+                <td><h3>stap 2</h3></td>
+                <td><h3>stap 3</h3></td>
+                <td><h3>stap 4</h3></td>
+            </tr>
+            <tr>
+                <td><p>Maak vanaf 6 september t/m zo ongeveer 25 september de 3 keuzen delen af en studeer voor
+                    generieken
+                    examens.</p>
+                </td>
+                <td><p>Vanaf 26 september t/m 20 november studeer en maak ik de generieken examens en zoek ik voor een
+                    stage als
+                    ik
+                    vrij heb.</p>
+                </td>
+                <td><p>Vanaf 21 november t/m 17 april ga ik op stage. In deze tijd kan ik ook de keuzen vakken die ik
+                    heb gemist
+                    afmaken.</p>
+                </td>
+                <td><p>Vanaf 18 april t/m 20 juni ga ik studeren voor beroeps examnes en ze maken tussen 27 juni en 17
+                    juli.</p>
+                </td>
+            </tr>
+
+        </table>
 
 
-<table border="1">
-    <tr>
-        <td><h3>stap 1</h3></td>
-        <td><h3>stap 2</h3></td>
-        <td><h3>stap 3</h3></td>
-        <td><h3>stap 4</h3></td>
-    </tr>
-    <tr>
-        <td><p>Maak vanaf 6 september t/m zo ongeveer 25 september de 3 keuzen delen af en studeer voor generieken
-            examens.</p>
-        </td>
-        <td><p>Vanaf 26 september t/m 20 november studeer en maak ik de generieken examens en zoek ik voor een stage als
-            ik
-            vrij heb.</p>
-        </td>
-        <td><p>Vanaf 21 november t/m 17 april ga ik op stage. In deze tijd kan ik ook de keuzen vakken die ik heb gemist
-            afmaken.</p>
-        </td>
-        <td><p>Vanaf 18 april t/m 20 juni ga ik studeren voor beroeps examnes en ze maken tussen 27 juni en 17 juli.</p>
-        </td>
-    </tr>
-
-</table>
-
-
+    </ul>
+</nav>
+<section>
+Leer jaar één ging best wel goed. Nou ja, het eerste gedeelt ging oké. er was veel regelmaat en ik ging lekker vooruit
+op schema. Toen kwam corona. De eerste paar weken voelde als of er niks aan de hand was. Maar toen kwamen de lockdowns.
+Op dat moment moesten we allemaal thuis werken. Dit heeft veroorzaakt dat mijn tempo, concentratie en vastberadenheid
+omlaag gingen. Na iets van 3 maanden konden we weer naar school, maar op dat moment was mijn consentratie helemaal op.
+Ik was zo gehegt geraakt aan thuis dat ik me hhel erg begon te vervelen op school. Ja, het is waar dat ik mijn regelmaat
+weer terug kreeg, maar ik vond dat de lockdows te lang duurde. Het was ook al bijna vakantie op dat moment, waardoor
+mijn motivatie nog meer naar beneden zakte. Ik dacht bij mezelf op dat moment dat ik gewoon verder kon werken in de
+vakantie, maar mijn internet ging toen kapot en toen kon ik als nog niks doen. Na de vakantie ging ik weer naar school
+en heb ik de eerste jaar vakken afgerond. Daarna ging ik twee keuze delen tegelijk behandelen, wat trouwens een slecht
+idee was. Door mij niet te concentreren op één vak, bogon ik te stressen en ging het allemaal veel langzamer dan ik wou
+en omdat ik te veel hier op was geconcentreerd miste ik mijn reken examen. Waarschijnlijk, werd ik door deze stress
+uiteindelijk super ziek, waardoor ik niet kon werken en dus veel miste. Na dat ik weer beter werd, greep ik de kans om
+mee te doen aan het BIT project, omdat ik nog geen stage kon vinden. Na het project was ik helemaal uitgeput en, omdat
+het ook weer bijna zomer vakantie was, werd mijn productiviteit weer heel lag. Ik dacht ook dat ik verder kon werken in
+de vakantie, maar ik moest helaas relaxen. Ik hoop dat ik dit jaar wel alles kan afmaken, maar ik ben er niet super
+optimistisch over.
+</section>
 </body>
 </html>
